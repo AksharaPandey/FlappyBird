@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bird-selector">
+        <label>Select your Bird:</label>
+        <select id="birdSelector">
+            <option value="StyleBird1/Bird1-1.png" data-frames="4">Style1 Bird 1</option>
+            <option value="StyleBird1/Bird1-2.png" data-frames="4">Style1 Bird 2</option>
+            <option value="StyleBird1/Bird1-3.png" data-frames="4">Style1 Bird 3</option>
+            <option value="StyleBird1/Bird1-4.png" data-frames="4">Style1 Bird 4</option>
+            <option value="StyleBird1/Bird1-5.png" data-frames="4">Style1 Bird 5</option>
+            <option value="StyleBird1/Bird1-6.png" data-frames="4">Style1 Bird 6</option>
+            <option value="StyleBird1/Bird1-7.png" data-frames="4">Style1 Bird 7</option>
+            <option value="StyleBird2/Bird2-1.png" data-frames="4">Style2 Bird 1</option>
+            <option value="StyleBird2/Bird2-2.png" data-frames="4">Style2 Bird 1</option>
+            <option value="StyleBird2/Bird2-3.png" data-frames="4">Style2 Bird 1</option>
+            <option value="StyleBird2/Bird2-4.png" data-frames="4">Style2 Bird 1</option>
+            <option value="StyleBird2/Bird2-5.png" data-frames="4">Style2 Bird 1</option>
+            <option value="StyleBird2/Bird2-6.png" data-frames="4">Style2 Bird 1</option>
+            <option value="StyleBird2/Bird2-7.png" data-frames="4">Style2 Bird 1</option>
+        </select>
+    </div>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="320" height="480"></canvas>
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="game-over" id="gameOver">Game Over</div>
+        <button id="restartButton">Restart</button>
+        <button id="bg-toggle">Toggle Background</button>
+        <div class="bg-toggle" id="bgToggle">Background: <span id="bgStatus">On</span></div>
+        <div class="controls">
+            <button id="jumpButton">Jump</button>
+            <button id="pauseButton">Pause</button>
+            <button id="resumeButton">Resume</button>
+        </div>
+    </div>
+    
+    
+   
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
