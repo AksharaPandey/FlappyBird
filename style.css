@@ -116,4 +116,10 @@ body {
     z-index: 2;
     color: white;
   }
-  
+  .theme-selector{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+    z-index: 2;
+    color: white;
+  }

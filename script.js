@@ -100,3 +100,6 @@ bgToggleButton.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', init);
+
+const pipeTopImage = new Image();
+pipeTopImage.src = 'FlappyBirdAssets/Tiles/St';
